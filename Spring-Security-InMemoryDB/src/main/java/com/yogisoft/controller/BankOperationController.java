@@ -160,8 +160,7 @@ public class BankOperationController {
 		});
 		
 		
-		//invoke the service class method
-		// keep the result in the Model attribute
+		
 		map.put("projectHighlights", result);
 		//return LVN
 		return  "show_highlights";
